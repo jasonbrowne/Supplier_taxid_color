@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include supplier_taxid_color *.css
+recursive-include supplier_taxid_color *.csv
+recursive-include supplier_taxid_color *.html
+recursive-include supplier_taxid_color *.ico
+recursive-include supplier_taxid_color *.js
+recursive-include supplier_taxid_color *.json
+recursive-include supplier_taxid_color *.md
+recursive-include supplier_taxid_color *.png
+recursive-include supplier_taxid_color *.py
+recursive-include supplier_taxid_color *.svg
+recursive-include supplier_taxid_color *.txt
+recursive-exclude supplier_taxid_color *.pyc

@@ -10,7 +10,7 @@ app_icon = "icon-book"
 app_color = "red"
 app_email = "jason@ixsystems.com"
 app_license = "MIT"
-
+dfixtures = ["Custom Field","Custom Script"]
 # Includes in <head>
 # ------------------
 
@@ -81,7 +81,7 @@ app_license = "MIT"
 
 doc_events = {
        "Supplier": {
-               "validate": "supplier_taxid_color./supplier_taxid_color.fixtures.custom_scripts.supplier_taxid_custom.js"
+               "validate": "supplier_taxid_color.supplier_taxid_color.fixtures.custom_scripts.supplier_taxid.validate",
        }
   }
 

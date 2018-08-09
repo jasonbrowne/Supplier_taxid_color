@@ -81,7 +81,7 @@ fixtures = ["Custom Field","Custom Script"]
 
 doc_events = {
        "Supplier": {
-               "validate": "supplier_taxid_color.supplier_taxid_coloixtures.custom_scripts.supplier_taxid.validate"
+               "validate": "supplier_taxid_color.supplier_taxid_color.fixtures.custom_scripts.supplier_taxid.validate"
        }
   }
 

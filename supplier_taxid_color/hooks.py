@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
 from . import __version__ as app_version
 
 app_name = "supplier_taxid_color"
@@ -9,8 +7,10 @@ app_description = "Change collor of the text for supplier taxid if the first two
 app_icon = "icon-book"
 app_color = "red"
 app_email = "jason@ixsystems.com"
+app_url = "https://github.com/jasonbrowne/supplier-taxid-color"
 app_license = "MIT"
-dfixtures = ["Custom Field","Custom Script"]
+app_version = "0.0.1"
+fixtures = ["Custom Field","Custom Script"]
 # Includes in <head>
 # ------------------
 
@@ -81,7 +81,7 @@ dfixtures = ["Custom Field","Custom Script"]
 
 doc_events = {
        "Supplier": {
-               "validate": "supplier_taxid_color.supplier_taxid_color.fixtures.custom_scripts.supplier_taxid.validate",
+               "validate": "supplier_taxid_color.supplier_taxid_coloixtures.custom_scripts.supplier_taxid.validate"
        }
   }
 

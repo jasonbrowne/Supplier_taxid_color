@@ -1,10 +1,11 @@
 // validate Supplier taxid prefix aginst list from irs 
 // change color of txt field if not on list 
 
-frappe.ui.form.on("Supplier", "validate", function(frm) {
+frappe.ui.form.on("Supplier", "validate", function(frm,cdt,cdn) {
    if (frm.doc.tax_id != 'frm.doc.taxid_prefix' ()) {
-frappe.throw(_("<b>Please enter tax id for supplier</b>"));
-       validated = false;
+      validated = false;
+
+frappe.throw(("<b>Please enter tax id for supplier</b>"));
         }
      }
    });
